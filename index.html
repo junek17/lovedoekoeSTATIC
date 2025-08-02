@@ -15,92 +15,43 @@
             justify-content: center;
             font-family: 'Segoe UI', Arial, sans-serif;
         }
-        .container {
-            max-width: 800px;
-            text-align: center;
-            padding: 32px;
-            background: rgba(0,0,0,0.85);
-            border-radius: 16px;
-            box-shadow: 0 4px 32px rgba(0,0,0,0.7);
-        }
-        @media (max-width: 550px) {
-            body {
-                padding: 0;
-            }
-            .top {
-                padding-left: 0;
-                padding-right: 0;
-                justify-content: center;
-            }
-            .container {
-                padding-left: 16px;
-                padding-right: 16px;
-                padding-top: 20px;
-                padding-bottom: 20px;
-                margin: 0 auto;
-            }
-            .timeline, .trust, .contact {
-                padding-left: 0;
-                padding-right: 0;
-            }
-            h1 {
-                font-size: 1.05rem;
-                padding-left: 0;
-                padding-right: 0;
-            }
-            h2 {
-                font-size: 0.95rem;
-            }
-            p, ul, li {
-                font-size: 0.70rem;
-                padding-left: 0;
-                padding-right: 0;
-            }
-            ul {
-                padding-left: 10px;
-                padding-right: 10px;
-            }
-        }
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-        }
-        .top {
+
+        .top{
             display: flex;
-            justify-content: center;
-            padding-left: 30px;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            max-width: 800px;
         }
-        ul {
-            text-align: left;
-            margin: 1.5rem 0;
-            padding-left: 70px;
-            padding-right: 70px;
+
+        div {
+            text-align: center;
+            padding: 16px;
+            border-radius: 16px;
         }
-        li {
-            margin-bottom: 0.7em;
+        
+        @media (max-width: 550px) {
+
         }
-        a {
-            color: #fff;
-            text-decoration: underline;
-            font-weight: bold;
-        }
-        .timeline, .trust, .contact {
-            margin-top: 2rem;
-        }
+
+
     </style>
 </head>
 <body>
     <div class="top">
-        <div class="container">
+        <div>
             <img src="lovedoekoe.jpeg" alt="LoveDOEKOE Logo" style="width: 500px; height: 200; border-radius: 20%; margin-bottom: 0.5rem;">
-        <div class="container">
-            <h1>🎮 LoveDOEKOE Marketplace – We’re building something real</h1>
-            <p>
-                LoveDOEKOE started in the Gaming scene — now it's becoming a platform for all kinds of gamers and creators.
-                From boosting to branding, from edits to coaching this is your digital hustle space. <br> Whether you're a player, a builder, a coach or a creative soon you’ll be able to sell your skills or find the right people to help you grow.</p>
-                This platform isn’t just a shop it’s a launchpad.
-            </p>
-            <div class="timeline">
+        <div>
+            <div>
+                <h1>🎮 LoveDOEKOE Marketplace – We’re building something real</h1>
+                <p>
+                    LoveDOEKOE started in the Gaming scene — now it's becoming a platform for all kinds of gamers and creators.
+                    From boosting to branding, from edits to coaching this is your digital hustle space. <br> Whether you're a player, a builder, a coach or a creative soon you’ll be able to sell your skills or find the right people to help you grow.</p>
+                    This platform isn’t just a shop it’s a launchpad.
+                </p>
+            </div>
+
+            <div>
                 <h2>What’s happening right now? 🛠️</h2>
                 <p>We’re building the platform behind the scenes.</p>
                 <p>Here’s what to expect:</p>
@@ -113,7 +64,8 @@
                 </ul>
                 <p>We're bringing everything into one clean, creator-friendly system backed by escrow.</p>
             </div>
-            <div class="timeline">
+
+            <div>
                 <h2>📅 Timeline</h2>
                 <ul>
                     <li><b>Now:</b> Platform in development</li>
@@ -122,11 +74,13 @@
                     <li><b>Ongoing:</b> New tools, categories & creator features</li>
                 </ul>
             </div>
-            <div class="trust">
+
+            <div>
                 <h2>🔐 Trust & Safety</h2>
                 <p>Every service is protected by escrow and our LD Token system — no scams, no chargebacks, no stress. Just real deals between real people.</p>
             </div>
-            <div class="contact">
+
+            <div>
                 <h2>📬 Want in early?</h2>
                 <p>We’ll open sign-ups in late August. Be the first to lock in your spot — and shape what comes next.</p>
                 <p>→ <a href="#">Join the Early Access List</a></p>
